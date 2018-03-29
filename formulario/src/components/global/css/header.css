@@ -3,7 +3,7 @@
 }
 
 .header {
-  background-color: blue;
+  background-color: #222;
   height: 70px;
   padding: 0px;
   color: white;
@@ -55,4 +55,22 @@
 
 .Menu li a:hover {
   color: #EEE;
+}
+
+.entrada {
+padding: 10px;
+
+display: flex;
+align-items: center;
+flex-flow: row wrap;
+}
+
+.entrada input {
+  padding: 5px;
+  margin: 5px;
+}
+
+.entrada button {
+  padding: 5px;
+  margin: 5px;
 }

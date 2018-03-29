@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import RaisedButton from 'material-ui/RaisedButton';
+
 
 import './css/header.css';
 import logo from './images/logo.svg';
@@ -30,6 +32,11 @@ export default class Header extends React.Component {
               }
             </ul>
           </div>
+          <div className="entrada">
+           <input type="email" placeholder="Email:" />
+           <input type="password" placeholder="Password:" />
+           <button>Log in</button>
+          </div> 
         </header>
       </div>  
     );

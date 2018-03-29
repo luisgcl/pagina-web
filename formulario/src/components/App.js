@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 import '../App.css';
 
@@ -16,10 +17,12 @@ class App extends Component {
   render() {
     const { children } = this.props;
     return (
+    <MuiThemeProvider>
       <div className="App">
         <Header title="JustFlyCompany" items={items} />
         <Content body={children} />
       </div>
+    </MuiThemeProvider>
     );
   }
 }
