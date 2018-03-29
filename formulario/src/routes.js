@@ -7,6 +7,7 @@ import App from './components/App';
 import Home from './components/Home';
 import About from './components/About';
 import Forum from './components/Forum';
+import Gallery from './components/Gallery';
 import Page404 from './components/Page404';
 
 const AppRoutes = () =>
@@ -15,6 +16,7 @@ const AppRoutes = () =>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/forum" component={Forum} />
+        <Route exact path="/gallery" component={Gallery} />
         <Route component={Page404} />
     	</Switch>
     </App>;
