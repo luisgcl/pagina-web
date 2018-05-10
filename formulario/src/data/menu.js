@@ -10,5 +10,9 @@ export default [
 	{
 		title: 'Forum',
 		url: '/forum'
+	},
+	{
+		title: 'Gallery',
+		url: '/gallery'
 	}
 ];
